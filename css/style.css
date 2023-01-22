@@ -22,12 +22,11 @@
 }
 .main{
   position: relative;
+ text-align: right;
   width: 100%;
 }
 .main-img{
-  position: absolute;
-  top: 10px;
-  right: 0;
+
   width: 60%;
 }
 .main-message{
@@ -62,5 +61,75 @@ span{
 
 .newa{
   width: 100%;
-
 }
+.news-area{
+
+  margin-top:50px ;
+  margin-left: 25%;
+}
+
+
+.news-theme{
+  font-family: 'Courier New', Courier, monospace;
+  color:#74325c ;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0; 
+}
+.news-tittle{
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.news-ul{
+  border-top:1px solid #ddd;
+  border-bottom: 1px solid #ddd ;
+  }
+
+  .news-li{
+    margin: 15px;
+    list-style: none;
+    border-bottom:1px solid #ddd;
+    padding: 10px;
+  }
+  .news-span{
+    margin: 0 15 0px;
+    background-color: #e057ad;
+    color: white;
+    border-radius: 6px;
+  }
+
+  .about{
+    background-color: rgba(169, 169, 169, 0.119);
+    margin-top: 50px;
+  }
+  .about-theme{
+    font-family: 'Courier New', Courier, monospace;
+      color: #74325c;
+      font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+  }
+  .about-tittle{
+    font-weight: bold;
+      font-size: 24px;
+      margin:20px 0 20px;
+      text-align: center;
+  }
+  .about-box{
+    display: flex;
+    justify-content: space-around;
+  }
+  .about-img{
+    width: 25%;
+    height: 25%;
+  }
+.about-text{
+  display: flex;
+  line-height: 1.5em;
+}
+.about-text2{
+  margin-top: 20px;
+  line-height: 1.5em;
+}
+

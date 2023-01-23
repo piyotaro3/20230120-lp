@@ -137,6 +137,8 @@ span{
   margin-top: 50px;
   margin-left: 15%;
   width: 100%;
+  margin-bottom: 30px;
+  height: 75%;
 }
 
 .service-thnem{
@@ -156,6 +158,7 @@ span{
   width: 75%;
   display: flex;
   background-color: aqua;
+
 }
 .service-left{
   background-color: #580339;
@@ -174,9 +177,9 @@ margin-bottom: 15px;
 }
 .service-text-left{
   color: white;
-  line-height: 1em;
+  line-height: 2em;
   letter-spacing: 0.3em;
-  margin: 0 25px 50px;
+  margin: 0 25px ;
   font-size: 15px;
 }
 
@@ -188,8 +191,8 @@ margin-bottom: 15px;
 }
 
 .service-right-up-img{
-  width: 75%;
-  height: 75%;
+  width: 50%;
+  height: 50%;
   margin-top: 10%;
 }
 .service-tittle-right-up{
@@ -211,20 +214,177 @@ margin-bottom: 15px;
 .service-right-down-img{
   width: 50%;
   height: 50%;
+  margin-top: 10%;
 }
 
 .service-right2{
   display: flex;
+  height: 50%;
 }
 .service-tittle-down{
-    margin-top: 75px;
-      margin-bottom: 10px;
-      color: white;
-}
+  margin-top: 100px;
+    margin-bottom: 10px;
+    color: white;
+    }
 
 .service-text-down{
   color: white;
     letter-spacing: auto;
     line-height: 3em;
     font-size: 15px;
+}
+
+
+.blog{
+  background-color: #ddd;
+}
+
+.blog-theme{
+  font-family: 'Courier New', Courier, monospace;
+    color: #74325c;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15%;
+}
+.blog-tittle{
+  font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+
+.blog-item{
+  width: 360px;
+  margin: 100px auto 0;
+}
+.bolg-img{
+  width: 100%;
+  border-radius: 6px 6px 0 0 ;
+}
+.text-box{
+  padding: 15px 25px;
+  background-color: white;
+  position: relative;
+}
+.blog-text{
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+.blog-img-p{
+  padding: 5px 10px;
+  background-color: #e057ad;
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 6px 0 0 0 ;
+  position: absolute;
+}
+.blog-day{
+  display: inline-block;
+  margin-left: 0;
+}
+
+.blog-coachtech{
+  display: inline-block;
+  margin-left: 80px;
+
+}
+.blog-test{
+  display: flex;
+  justify-content: space-around;
+}
+
+.blog-btn{
+  width: 200px;
+  padding: 10px 0 ;
+  color:palevioletred ;
+  border-radius: 30px;
+  border: solid 1px palevioletred;
+  background-color: #fff;
+  text-align: center;
+  justify-content: center;
+  margin: 50px auto 100px ;
+  display: block;
+}
+
+.table{
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.table area{
+  margin-top: 30px;
+  width: 60%;
+  border-collapse: collapse;
+}
+table th,
+table td{
+  border: 1px solid#ccc;
+  padding: 20px;
+}
+table th{
+  font-weight: bold;
+  background-color: #dedede;
+  text-align: left;
+}
+table td{
+  width: 75%;
+}
+
+.table-theme{
+  font-family: 'Courier New', Courier, monospace;
+    color: #74325c;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15%;
+}
+.table-tittle{
+  font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+}
+
+.photo{
+  width: vw 100%;
+}
+
+.photo-box1{
+  display: flex;
+  position: relative
+}
+.photo-img1{
+  width: 50%;
+  align-items: right;
+
+
+}
+
+.photo-tittle1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50% -50%) ;
+    display: inline-block;
+  }
+
+.photo-img2{
+  width: 50%;
+}
+
+
+.footer{
+  height: 10%;
+  width: 100%;
+  background-color: #ccc;
+  text-align: center;
+}
+.footer-text{
+  padding: 10px 0 10px;
+  font-size: 12px;
 }

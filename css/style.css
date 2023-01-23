@@ -27,9 +27,12 @@
   width: 100%;
 }
 .main-img{
-
   width: 60%;
 }
+.main-test{
+  position: relative;
+}
+
 .main-message{
     font-family: 'Caveat Brush', cursive;
         font-size: 50px;
@@ -37,7 +40,7 @@
         letter-spacing: 0.3em;
         line-height: 2em;
         position: absolute;
-        top: 20%;
+        top: 15%;
         left: 20%;
 }
 .main-span{
@@ -45,19 +48,24 @@
 }
 .main-text{
   position: absolute;
-  left: 20%;
-  top: 50%;
+  left: -18%;
+  top: 60%;
+  width: 60%;
 }
 .main-tittle{
   font-size: 25px;
   color: purple;
  line-height:50px ;
+
 }
 span{
   color: cornflowerblue;
 }
 .main-p{
   line-height:1.5em;
+  position: absolute;
+  left: 68%;
+  align:left
 }
 
 .newa{
@@ -83,6 +91,8 @@ span{
 .news-ul{
   border-top:1px solid #ddd;
   border-bottom: 1px solid #ddd ;
+  align-items: center;
+  display: inline-block;
 
   }
   .news-li{
@@ -137,7 +147,7 @@ span{
 
 .service{
   margin-top: 50px;
-  margin-left: 15%;
+  margin-left: 20%;
   margin-bottom: 30px;
   height: 75%;
 }
@@ -165,7 +175,7 @@ span{
 }
 .service-left{
   background-color: #580339;
-  width: 100%;
+  width: 135%;
 }
 .service-left-img{
   width: 45%;
@@ -189,7 +199,7 @@ margin-bottom: 15px;
 .serivce-rihgt1{
   background-color:rgb(207, 36, 136) ;
   display: flex;
-  width: 100%;
+  width: 103%;
   height: 50%;
 }
 
@@ -223,6 +233,7 @@ margin-bottom: 15px;
 .service-right2{
   display: flex;
   height: 50%;
+  width: 103%;
 }
 .service-tittle-down{
   margin-top: 100px;
@@ -256,10 +267,12 @@ margin-bottom: 15px;
     margin-top: 20px;
     margin-left: 15%;
 }
-
+.blog-box{
+  width: 360px;
+}
 
 .blog-item{
-  width: 50%;
+  width: 360px;
   margin: 100px auto 0;
 }
 .bolg-img{
@@ -270,7 +283,6 @@ margin-bottom: 15px;
   padding: 15px 25px;
   background-color: white;
   position: relative;
-
 }
 .blog-text{
   font-size: 18px;
@@ -406,10 +418,13 @@ table td{
   margin-bottom: 15px;
 }
 .inqury-bar{
+color: #e057ad;
+text-align: center;
+font-size: 18px;
 
 }
 
-.inqury-btn{
+button{
 width: 200px;
   padding: 10px 0;
   color: white;
@@ -419,9 +434,16 @@ width: 200px;
   text-align: center;
   justify-content: center;
   margin: 50px auto 100px;
-  display: block;
+  display: flex;
   background: linear-gradient(90deg,rgb(210, 6, 139),rgb(166, 1, 117));
   box-shadow: 0 5px 3px rgb(62, 48, 60);
+}
+.button-img{
+width: 10%;
+margin-right: 25px;
+
+}
+.mail-P{
 }
 .footer{
   height: 20%;

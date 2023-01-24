@@ -294,6 +294,7 @@ margin-bottom: 15px;
   padding: 15px 25px;
   background-color: white;
   position: relative;
+  border-radius: 0 0 6px 6px;
 }
 .blog-text{
   font-size: 18px;
@@ -324,7 +325,6 @@ margin-bottom: 15px;
   display: flex;
   justify-content: space-around;
 }
-
 .blog-btn{
   width: 200px;
   padding: 10px 0 ;
@@ -333,9 +333,9 @@ margin-bottom: 15px;
   border: solid 1px palevioletred;
   background-color: #fff;
   text-align: center;
-  justify-content: center;
-  margin: 50px auto 100px ;
-  display: block;
+  margin: 50px ;
+  margin-left: 45%;
+  display:inline-block;
 }
 
 .table{
@@ -343,7 +343,6 @@ margin-bottom: 15px;
   margin: 0 auto;
   margin-bottom: 30px;
 }
-
 .table area{
   margin-top: 30px;
   width: 60%;
@@ -362,7 +361,6 @@ table th{
 table td{
   width: 75%;
 }
-
 .table-theme{
   font-family: 'Courier New', Courier, monospace;
     color: #74325c;
@@ -381,18 +379,13 @@ table td{
 .photo{
   width: vw 100%;
 }
-
 .photo-box1{
   display: flex;
   position: relative
 }
 .photo-img1{
   width: 100%;
-
-
-
 }
-
 .photo-tittle1 {
     color: white;
     position: absolute;
@@ -401,7 +394,6 @@ table td{
     transform:translate(-50% -50%) ;
 
   }
-
 .photo-img2{
   width: 100%;
 }
@@ -412,13 +404,10 @@ table td{
     left: 50%;
     transform: translate(-50% -50%);
 }
-
-
 .phto-area{
   display: flex;
   width: 100%;
 }
-
 
 .inqury{
   width: 100%;
@@ -434,7 +423,6 @@ text-align: center;
 font-size: 18px;
 
 }
-
 button{
 width: 200px;
   padding: 10px 0;
@@ -452,15 +440,17 @@ width: 200px;
 .button-img{
 width: 10%;
 margin-right: 25px;
-
 }
 .mail-P{
 }
 .footer{
-  height: 20%;
+  height: 45px;
   width: 100%;
   background-color: #ccc;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer-text{
   padding: 10px 0 10px;

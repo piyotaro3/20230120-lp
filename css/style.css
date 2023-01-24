@@ -315,7 +315,10 @@ margin-bottom: 15px;
   display: inline-block;
   margin-left: 0;
 }
-
+.blog-small{
+  justify-content: space-between;
+  display: flex;
+}
 .blog-coachtech{
   display: inline-block;
   margin-left: 80px;
